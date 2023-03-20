@@ -5,6 +5,8 @@ import * as Location from "expo-location";
 
 const { width: SCREEN_WIDTH } = Dimensions.get("window");
 
+const API_KEY = "11d470626482ba5c66d620f7673a2dc6";
+
 export default function App() {
   const [city, setCity] = useState("Loading...");
   const [ok, setOk] = useState(true);
@@ -24,7 +26,7 @@ export default function App() {
     );
     setCity(location[0].city);
     const response = await fetch(
-      `https://api.openweathermap.org/data/3.0/onecall?lat=${latitude}&lon=${longitude}&exclude=alerts&appid=${process.env.REACT_APP_API_KEY}`
+      `https://api.openweathermap.org/data/3.0/onecall?lat=${latitude}&lon=${longitude}&exclude=alerts&appid=${API_KEY}`
     );
     const json = await response.json();
     console.log(json);
