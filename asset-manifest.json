@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/Nomad_WeatherApp/static/js/main.22e0e9c9.js",
+    "static/js/13.1fbee42d.js": "/Nomad_WeatherApp/static/js/13.1fbee42d.js",
+    "static/media/Fontisto.ttf": "/Nomad_WeatherApp/static/media/Fontisto.c0edd68811e0237502fe.ttf",
+    "favicon.ico": "/Nomad_WeatherApp/favicon.ico",
+    "index.html": "/Nomad_WeatherApp/index.html",
+    "favicon-32.png": "/Nomad_WeatherApp/favicon-32.png",
+    "favicon-16.png": "/Nomad_WeatherApp/favicon-16.png",
+    "manifest.json": "/Nomad_WeatherApp/manifest.json",
+    "serve.json": "/Nomad_WeatherApp/serve.json",
+    "main.22e0e9c9.js.map": "/Nomad_WeatherApp/static/js/main.22e0e9c9.js.map",
+    "13.1fbee42d.js.map": "/Nomad_WeatherApp/static/js/13.1fbee42d.js.map"
+  },
+  "entrypoints": [
+    "static/js/13.1fbee42d.js",
+    "static/js/main.22e0e9c9.js"
+  ]
+}
